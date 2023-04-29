@@ -1,0 +1,49 @@
+.contenedor-principal {
+}
+.contenedor-cabecera {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.contenedor-barra-navegacion {
+  width: 70%;
+}
+.contenedor-boton-usuario {
+  width: 30%;
+  justify-content: flex-end;
+  display: flex;
+  margin-right: 20px;
+}
+.ventana-usuario {
+  background: gray;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  width: 150px;
+  height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  bottom: -210px;
+  right: 0px;
+}
+.barra-navegacion {
+  width: 100%;
+}
+.barra-navegacion ul {
+  list-style: none;
+  display: flex;
+}
+.barra-navegacion ul li {
+  margin: 10px 5px;
+  background-color: darkviolet;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px rgba(255, 0, 0, 0.5);
+  cursor: pointer;
+}
+.barra-navegacion ul li:hover {
+  background-color: #c37ce1;
+}
+.barra-navegacion ul li a {
+  text-decoration: none;
+  color: white;
+}

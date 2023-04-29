@@ -1,0 +1,5 @@
+/* Estilo base para la pagina */
+@import "./base.css";
+
+/* Estilos para el contenido de la pagina */
+@import "./content/index.css";
