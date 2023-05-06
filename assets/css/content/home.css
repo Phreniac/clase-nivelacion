@@ -15,15 +15,25 @@
   margin-right: 20px;
 }
 .ventana-usuario {
-  background: gray;
-  border-radius: 5px;
-  border: 1px solid lightgray;
-  width: 150px;
-  height: 200px;
-  overflow-y: auto;
+    background: gray;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 150px;
+    height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    bottom: -185px;
+    right: 20px;
+    display: none;
+}
+.ventana-usuario.mostrar-ventana {
+  display:block;
+}
+.ventana-usuario-closeicon{
   position: absolute;
-  bottom: -210px;
-  right: 0px;
+  top: 0px;
+  right: 10px;
+  cursor: pointer;
 }
 .barra-navegacion {
   width: 100%;
